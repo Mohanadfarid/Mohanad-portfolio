@@ -97,3 +97,46 @@ section {
   font-size: 1.7em;
   padding-right: 30px;
 }
+
+.cards h2 {
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 21.25em;
+  min-height: 500px;
+  text-align: center;
+  padding: 25px;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .icon {
+  color: #3a6cf4;
+  font-size: 8em;
+}
+
+.info h3{
+  color: #3a6cf4;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
