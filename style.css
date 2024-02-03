@@ -98,7 +98,7 @@ section {
   padding-right: 30px;
 }
 
-.cards h2 {
+.title {
   display: flex;
   justify-content: center;
   color: #3a6cf4;
@@ -134,9 +134,64 @@ section {
   font-size: 8em;
 }
 
-.info h3{
+.info h3 {
   color: #3a6cf4;
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
+}
+
+.projects {
+  background-color: #000016;
+}
+.project-card {
+  width: 90vw;
+  max-width: 400px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.project-card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.project-card .info {
+  padding: 20px;
+}
+.project-card h4 {
+  font-size: 20px;
+}
+
+.project-card .description {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.project-card .tech-stack {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card .tech-card {
+  font-weight: 700;
+  margin: 8px;
+  background-color: #3a6cf4;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+}
+.project-card .project-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  font-weight: 700;
 }
