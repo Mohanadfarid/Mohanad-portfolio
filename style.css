@@ -74,6 +74,23 @@ section {
   margin-bottom: 30px;
 }
 
+.main .tech-stack-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 0; 
+}
+
+.main .tech-stack-icons p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.main .tech-stack-icons img {
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+}
 .main-btn {
   color: #fff;
   background-color: #3a6cf4;
@@ -245,7 +262,7 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-footer p{
+footer p {
   font-size: 1.4em;
   font-weight: 700;
 }
