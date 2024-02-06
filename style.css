@@ -92,10 +92,16 @@ section {
   transform: scale(1.1);
 }
 
-.social-icons a {
+.social-icons i {
   color: #fff;
   font-size: 1.7em;
   padding-right: 30px;
+  transition: 0.3s ease;
+}
+.social-icons i:hover {
+  color: #0a49f6;
+  transform: translateY(-10px);
+  transition: 0.3s ease;
 }
 
 .title {
@@ -155,7 +161,7 @@ section {
   background-color: white;
   border: 1px solid white;
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: 0.7s ease;
 }
 .project-card:hover {
   transform: scale(1.1);
@@ -218,7 +224,7 @@ section {
   text-decoration: none;
 }
 
-.contacts h3{
+.contacts h3 {
   color: black;
 }
 
@@ -229,4 +235,20 @@ section {
 .contacts p {
   color: black;
   font-size: 20px;
+}
+
+footer {
+  background-color: #000016;
+  color: white;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer p{
+  font-size: 1.4em;
+  font-weight: 700;
+}
+footer span {
+  color: #0a49f6;
 }
