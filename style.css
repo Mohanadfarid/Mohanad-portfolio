@@ -116,7 +116,7 @@ section {
 
 .card {
   width: 21.25em;
-  min-height: 500px;
+  min-height: 450px;
   text-align: center;
   padding: 25px;
   margin: 15px;
@@ -212,4 +212,21 @@ section {
 }
 .project-card a:hover {
   color: #0a49f6;
+}
+
+.contacts a {
+  text-decoration: none;
+}
+
+.contacts h3{
+  color: black;
+}
+
+.contacts .card {
+  min-height: 300px;
+}
+
+.contacts p {
+  color: black;
+  font-size: 20px;
 }
