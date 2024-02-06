@@ -8,7 +8,7 @@
 }
 
 header {
-  padding: 10px 200px;
+  padding: 0.625em 12.5em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,7 +28,7 @@ header {
 
 nav a {
   text-decoration: none;
-  padding-left: 30px;
+  padding-left: 1.875em;
   color: #3a6cf4;
   font-size: 1.1em;
   font-weight: 500;
@@ -38,7 +38,7 @@ nav a:hover {
   color: #601cfc;
 }
 section {
-  padding: 100px 200px;
+  padding: 6.25em 12.5em;
 }
 
 .main {
@@ -60,7 +60,7 @@ section {
 }
 .main span {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 0.625em;
   color: #4e9eff;
   font-size: 3em;
   font-weight: 600;
@@ -70,26 +70,26 @@ section {
   font-size: 2em;
   font-weight: 700;
   letter-spacing: 1px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 0.625em;
+  margin-bottom: 1.875em;
 }
 
 .main .tech-stack-icons {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin: 15px 0; 
+  margin: 0.9375em 0;
 }
 
 .main .tech-stack-icons p {
-  font-size: 25px;
+  font-size: 1.5625em;
   font-weight: 700;
 }
 
 .main .tech-stack-icons img {
-  margin-left: 15px;
-  width: 40px;
-  height: 40px;
+  margin-left: 0.9375em;
+  width: 2.5em;
+  height: 2.5em;
 }
 .main-btn {
   color: #fff;
@@ -100,8 +100,8 @@ section {
   display: inline-block;
   padding: 0.9375em 2.1875em;
   letter-spacing: 1px;
-  border-radius: 15px;
-  margin-bottom: 40px;
+  border-radius: 0.9375em;
+  margin-bottom: 2.5em;
   transition: 0.7s ease;
 }
 .main-btn:hover {
@@ -112,7 +112,7 @@ section {
 .social-icons i {
   color: #fff;
   font-size: 1.7em;
-  padding-right: 30px;
+  padding-right: 1em;
   transition: 0.3s ease;
 }
 .social-icons i:hover {
@@ -127,7 +127,7 @@ section {
   color: #3a6cf4;
   font-size: 2.2em;
   font-weight: 800;
-  margin-bottom: 30px;
+  margin-bottom: 1.875em;
 }
 
 .content {
@@ -139,10 +139,10 @@ section {
 
 .card {
   width: 21.25em;
-  min-height: 450px;
+  min-height: 28.125em;
   text-align: center;
-  padding: 25px;
-  margin: 15px;
+  padding: 1.5625em;
+  margin: 0.9375em;
   background-color: white;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   transition: 0.7s ease;
@@ -161,7 +161,7 @@ section {
   color: #3a6cf4;
   font-size: 1.2em;
   font-weight: 700;
-  margin: 10px;
+  margin: 0.625em;
 }
 
 .projects {
@@ -171,13 +171,13 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 20px;
+  margin: 1.25em;
   width: 90vw;
-  max-width: 400px;
-  height: 600px;
+  max-width: 25em;
+  height: 37.5em;
   background-color: white;
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 0.625em;
   transition: 0.7s ease;
 }
 .project-card:hover {
@@ -191,18 +191,18 @@ section {
 }
 .project-card .info {
   height: 40%;
-  padding: 20px;
+  padding: 1.25em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 .project-card h4 {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .project-card .description {
   text-align: center;
-  margin: 5px 0;
+  margin: 0.3125em 0;
 }
 
 .project-card .tech-stack {
@@ -215,10 +215,10 @@ section {
 
 .project-card .tech-card {
   font-weight: 700;
-  margin: 8px;
+  margin: 0.5em;
   background-color: #3a6cf4;
-  padding: 5px 10px;
-  border-radius: 10px;
+  padding: 0.3125em 0.625em;
+  border-radius: 0.625em;
   color: white;
 }
 .project-card .project-links {
@@ -228,9 +228,9 @@ section {
 
 .project-card a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.125em;
   color: black;
-  margin-top: 10px;
+  margin-top: 0.625em;
   font-weight: 700;
 }
 .project-card a:hover {
@@ -246,12 +246,12 @@ section {
 }
 
 .contacts .card {
-  min-height: 300px;
+  min-height: 18.75em;
 }
 
 .contacts p {
   color: black;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 footer {
