@@ -181,6 +181,7 @@ section {
   border-radius: 0.625em;
   transition: 0.7s ease;
 }
+
 .project-card:hover {
   transform: scale(1.1);
   opacity: 0.8.5;
